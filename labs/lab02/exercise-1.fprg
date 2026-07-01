@@ -4,17 +4,20 @@
         <attribute name="name" value="exercise-1"/>
         <attribute name="authors" value="User"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2026-07-01 11:00:01 AM"/>
+        <attribute name="saved" value="2026-07-01 04:16:25 PM"/>
         <attribute name="created" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0wMTsxMDo0ODowMiBBTTsyNzMz"/>
         <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0wMTsxMTowMDowMSBBTTsyOzI4MzA="/>
+        <attribute name="edited" value="VXNlcjtMQVBUT1AtTE1DNFJGMkU7MjAyNi0wNy0wMTswNDoxNjoyNSBQTTsxOzI4NTU="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <declare name="Ringgit" type="Integer" array="False" size=""/>
+            <declare name="Ringgit" type="Real" array="False" size=""/>
             <input variable="Ringgit"/>
-            <assign variable="calculate" expression="BahtbasedonRinggitand2%commissionfee"/>
-            <declare name="Baht" type="Integer" array="False" size=""/>
+            <declare name="remainingRinggit" type="Real" array="False" size=""/>
+            <assign variable="remainingRinggit" expression="Ringgit - (Ringgit * 0.02)"/>
+            <declare name="Baht" type="Real" array="False" size=""/>
+            <assign variable="Baht" expression="remainingRinggit * 8.17"/>
             <output expression="Baht" newline="True"/>
         </body>
     </function>
