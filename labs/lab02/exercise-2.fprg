@@ -4,16 +4,17 @@
         <attribute name="name" value="exercise-2"/>
         <attribute name="authors" value="User"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2026-07-01 11:18:56 AM"/>
+        <attribute name="saved" value="2026-07-01 04:01:04 PM"/>
         <attribute name="created" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0wMTsxMTowMjoyOSBBTTsyNzMz"/>
         <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0wMTsxMToxODo1NiBBTTsyOzI4NDk="/>
+        <attribute name="edited" value="VXNlcjtMQVBUT1AtTE1DNFJGMkU7MjAyNi0wNy0wMTswNDowMTowNCBQTTsxOzI4NDY="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <declare name="pricePerMetre" type="Integer" array="False" size=""/>
+            <declare name="pricePerMetre" type="Real" array="False" size=""/>
             <input variable="pricePerMetre"/>
-            <declare name="lengthCm" type="Integer" array="False" size=""/>
+            <declare name="lengthCm" type="Real" array="False" size=""/>
             <input variable="lengthCm"/>
             <declare name="totalLength" type="Integer" array="False" size=""/>
             <assign variable="totalLength" expression="(lengthCm / 100) *1.10"/>
