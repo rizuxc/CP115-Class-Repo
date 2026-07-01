@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="exercise-3"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-07-01 04:50:42 PM"/>
+        <attribute name="created" value="VXNlcjtMQVBUT1AtTE1DNFJGMkU7MjAyNi0wNy0wMTswNDoxODozMSBQTTsyNzQ2"/>
+        <attribute name="edited" value="VXNlcjtMQVBUT1AtTE1DNFJGMkU7MjAyNi0wNy0wMTswNDo1MDo0MiBQTTsxOzI4NTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Watts" type="Real" array="False" size=""/>
+            <input variable="Watts"/>
+            <declare name="Hour" type="Real" array="False" size=""/>
+            <input variable="Hour"/>
+            <declare name="CostNight" type="Real" array="False" size=""/>
+            <assign variable="CostNight" expression="(Watts/1000) * 0.218 * Hour"/>
+            <declare name="CostMonth" type="Real" array="False" size=""/>
+            <assign variable="CostMonth" expression="CostNight * 30"/>
+            <output expression="CostNight" newline="True"/>
+            <output expression="CostMonth" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

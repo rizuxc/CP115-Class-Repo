@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="exercise-4"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-07-01 05:36:20 PM"/>
+        <attribute name="created" value="VXNlcjtMQVBUT1AtTE1DNFJGMkU7MjAyNi0wNy0wMTswNToxNToyMiBQTTsyNzQ0"/>
+        <attribute name="edited" value="VXNlcjtMQVBUT1AtTE1DNFJGMkU7MjAyNi0wNy0wMTswNTozNjoyMCBQTTsxOzI4NTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="DistanceKM" type="Real" array="False" size=""/>
+            <input variable="DistanceKM"/>
+            <declare name="Litre" type="Real" array="False" size=""/>
+            <assign variable="Litre" expression="(DistanceKM/100) * 8"/>
+            <declare name="Cost" type="Real" array="False" size=""/>
+            <assign variable="Cost" expression="Litre * 2.05"/>
+            <output expression="Cost" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
