@@ -1,0 +1,7 @@
+name = str(input("Name: "))
+age = int(input("Age: "))
+course_code = str(input("Course Code: "))
+print(type(name))
+print(type(age))
+print(type(course_code))
+print(f"Your name is {name}, you are {age} years old and your course code is {course_code}")
