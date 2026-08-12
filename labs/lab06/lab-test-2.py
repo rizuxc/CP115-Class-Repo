@@ -24,4 +24,5 @@ print(f"Name: {name}\t\tMatric. No: {matricno}\n" #This line of code displays th
       f"This is my\n"
       f"\tsecond\n"
       f"\t\tassignment\n"
-      f"I want {mark1}x{mark2} marks, which is {tMark} full marks")
+      f"I want {mark1}x{mark2} marks, which is {tMark} full marks") #This line of code shows the student's marks and the full marks
+#The codes are now finished!
